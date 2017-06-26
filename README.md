@@ -60,4 +60,6 @@ The function and tests must meet the following requirements:
    * When cache is not empty and cache is >= 5 seconds old.
    * When http GET fails.
 
+5. 100% coverage.
+
 Have fun!
