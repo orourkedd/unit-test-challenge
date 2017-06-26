@@ -42,12 +42,14 @@ The function you must write and test must meet the following requirements:
 
 ## Requirements for the tests
 
-1. Should be 100% code coverage.
+1. Should test ordering of operations (i.e. tests should ensure that cache set does not happen before GET request).
 
-2. Should test for handling of GET failure.
+2. Should test that operations happen the correct number of times.  For example, simply testing that the GET request and cache set occur is not sufficient; it must test that these operations happen only once.
 
-3. Should test ordering of operations (i.e. tests should ensure that cache set does not happen before GET request).
-
-4. Should test that operations happen the correct number of times.  For example, simply testing that the GET request and cache set occur is not sufficient; it must test that these operations happen only once.
+3. Should cover these scenarios:
+ * should cache miss if cache is empty, GET zen from github, set cache, and return result.
+ * should return zen from the cache if the cache is less than 5 seconds old.
+ * should cache miss if cache is older than 5 seconds, GET zen from github, set cache, and return result.
+ * should handle http GET failure.
 
 Have fun!
