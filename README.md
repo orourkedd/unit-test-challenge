@@ -1,6 +1,6 @@
 # Unit Test Challenge
 
-There has been a lot of discussion around mocks in testing.  I wanted to throw a challenge out to see if anyone can write better unit tests, using mocks or not, than the one defined here.  "Better" is subjective so this challenge is for the personal growth of those doing and/or watching the exercise.  If you decide to do it, post a link to the repo in `#dev-learning` with working unit tests and example of the function working.
+There has been a lot of discussion around mocks in testing.  I wanted to throw a challenge out to see if anyone can write better unit tests, using mocks or not, than the one defined here.  "Better" is subjective so this challenge is for the personal growth of those doing and/or watching the exercise.
 
 You can run the function in this repo by doing:
 
