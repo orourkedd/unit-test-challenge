@@ -2,9 +2,9 @@
 
 There has been a lot of discussion around mocks in testing.  I wanted to throw a challenge out to see if anyone can write better unit tests, using mocks or not, than the ones defined using `effects-as-data`, here:
 
-[The Function](https://github.com/orourkedd/unit-test-challenge/blob/master/src/zen.js)
-
 [The Specs](https://github.com/orourkedd/unit-test-challenge/blob/master/src/zen.spec.js)
+
+[The Function](https://github.com/orourkedd/unit-test-challenge/blob/master/src/zen.js)
 
 "Better" is subjective so this challenge is for the personal growth of those doing and/or watching the exercise.
 
