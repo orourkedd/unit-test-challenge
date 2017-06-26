@@ -1,4 +1,4 @@
-const { actions, success, failure, isFailure } = require('effects-as-data/node')
+const { actions, isFailure } = require('effects-as-data/node')
 const FIVE_SECONDS = 1000 * 5
 
 module.exports = function* zen() {
