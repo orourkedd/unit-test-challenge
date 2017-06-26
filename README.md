@@ -26,6 +26,10 @@ For the tests:
 npm test
 ```
 
+# The Challenge
+
+Below are the requirements for the function and its unit tests.
+
 ## Requirements for the function
 
 The function you must write and test must meet the following requirements:
