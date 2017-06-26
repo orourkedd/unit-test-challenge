@@ -52,7 +52,9 @@ The function and tests must meet the following requirements:
 
 2. Tests should ensure that operations happen the correct number of times.  For example, simply testing that the GET request and cache set occur is not sufficient; it must test that these operations happen only once.
 
-3. Tests should cover all scenarios ([see tests](https://github.com/orourkedd/unit-test-challenge/blob/master/src/zen.spec.js)):
+3. Tests should ensure that mocks are invoked with the correct arguments, the correct number of times.
+
+4. Tests should cover all scenarios ([see tests](https://github.com/orourkedd/unit-test-challenge/blob/master/src/zen.spec.js)):
    * should cache miss if cache is empty, GET zen from github, set cache, and return result.
    * should return zen from the cache if the cache is less than 5 seconds old.
    * should cache miss if cache is older than 5 seconds, GET zen from github, set cache, and return result.
