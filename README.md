@@ -8,19 +8,19 @@ There has been a lot of discussion around mocks in testing.  I wanted to throw a
 
 "Better" is subjective so this challenge is for the personal growth of those doing and/or watching the exercise.
 
-You can run the function in this repo by doing:
+Running the demo:
 
 ```
 npm install
 ```
 
-Then, for the demo:
+For the function (the function demo takes 8 seconds to show the various states):
 
 ```
 npm start
 ```
 
-or, for the tests:
+For the tests:
 
 ```
 npm test
