@@ -62,4 +62,6 @@ The function and tests must meet the following requirements:
 
 5. 100% coverage.
 
+6. Must be unit tests.
+
 Have fun!
