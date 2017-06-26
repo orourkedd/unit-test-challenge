@@ -1,6 +1,6 @@
 # Unit Test Challenge
 
-There has been a lot of discussion around mocks in testing.  I wanted to throw a challenge out to see if anyone can write better unit tests, using mocks or not, than the one defined here:
+There has been a lot of discussion around mocks in testing.  I wanted to throw a challenge out to see if anyone can write better unit tests, using mocks or not, than the one defined using `effects-as-data`, here:
 
 [The Function](https://github.com/orourkedd/unit-test-challenge/blob/master/src/zen.js)
 
