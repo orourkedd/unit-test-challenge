@@ -32,7 +32,7 @@ Below are the requirements for the function and its unit tests.
 
 ## Requirements for the function
 
-The function you must write and test must meet the following requirements:
+The function and tests must meet the following requirements:
 
 1. It will do a GET request to https://api.github.com/zen and return the result as a string.
 
@@ -46,14 +46,14 @@ The function you must write and test must meet the following requirements:
 
 ## Requirements for the tests
 
-1. Should test ordering of operations (i.e. tests should ensure that cache set does not happen before GET request).
+1. Tests should account for ordering of operations (i.e. tests should ensure that cache set does not happen before GET request).
 
-2. Should test that operations happen the correct number of times.  For example, simply testing that the GET request and cache set occur is not sufficient; it must test that these operations happen only once.
+2. Tests should ensure that operations happen the correct number of times.  For example, simply testing that the GET request and cache set occur is not sufficient; it must test that these operations happen only once.
 
-3. Should cover these scenarios ([see tests](https://github.com/orourkedd/unit-test-challenge/blob/master/src/zen.spec.js)):
- * should cache miss if cache is empty, GET zen from github, set cache, and return result.
- * should return zen from the cache if the cache is less than 5 seconds old.
- * should cache miss if cache is older than 5 seconds, GET zen from github, set cache, and return result.
- * should handle http GET failure.
+3. Tests should cover all scenarios ([see tests](https://github.com/orourkedd/unit-test-challenge/blob/master/src/zen.spec.js)):
+   * should cache miss if cache is empty, GET zen from github, set cache, and return result.
+   * should return zen from the cache if the cache is less than 5 seconds old.
+   * should cache miss if cache is older than 5 seconds, GET zen from github, set cache, and return result.
+   * should handle http GET failure.
 
 Have fun!
