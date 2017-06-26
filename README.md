@@ -6,7 +6,7 @@ There has been a lot of discussion around mocks in testing.  I wanted to throw a
 
 [The Function](https://github.com/orourkedd/unit-test-challenge/blob/master/src/zen.js)
 
-"Better" is subjective so this challenge is for the personal growth of those doing and/or watching the exercise.
+"Better" is a subjective metric so this challenge is for the personal growth of those doing and/or watching the exercise.  Ideally, you can write something of which other developers say, "Wow, those tests are (concise|readable|clean|awesome|etc)."
 
 Running the demo:
 
