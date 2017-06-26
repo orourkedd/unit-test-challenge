@@ -44,6 +44,8 @@ The function and tests must meet the following requirements:
 
 5. Don't use existing 3rd party debouncing utilities.
 
+6. You can mock anything that produces a side-effect, but all logic must be in this function.  For example, you can inject a key-value store mock, but the logic to determine when to cache miss must be in this function for the exercise.
+
 ## Requirements for the tests
 
 1. Tests should account for ordering of operations (i.e. tests should ensure that cache set does not happen before GET request).
